@@ -4,86 +4,60 @@
   <meta charset="UTF-8">
   <title>Testimonial Section</title>
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #fff;
-    }
+   body {
+  font-family: Georgia, serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 40px;
+}
 
-    /* Main container */
-    .testimonial-section {
-      background-color: #f5f5f5;
-      padding: 50px 20px;
-    }
+.testimonials {
+  width: 80%;
+  margin: auto;
+}
 
-    .testimonial-container {
-      max-width: 800px;
-      margin: 0 auto;
-    }
+.testimonials h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
 
-    /* Individual testimonial */
-    .testimonial {
-      background-color: #ffffff;
-      border: 1px solid #ddd;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
+.testimonial-card {
+  background: #fff;
+  padding: 25px 30px;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  position: relative;
+}
 
-    .testimonial p {
-      margin: 0;
-      font-size: 16px;
-      line-height: 1.6;
-      color: #333;
-    }
+.testimonial-card p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
 
-    /* Author styling */
-    .author {
-      text-align: right;
-      font-style: italic;
-      margin-top: 15px;
-      color: #555;
-    }
+.author {
+  display: block;
+  font-style: italic;
+  text-align: right;
+  font-size: 16px;
+  color: #555;
+}
 
-    /* Optional heading */
-    .testimonial-section h2 {
-      text-align: center;
-      margin-bottom: 30px;
-      color: #222;
-    }
   </style>
 </head>
 <body>
-  <section class="testimonial-section">
-    <h2>What Our Clients Say</h2>
-    <div class="testimonial-container">
+<section class="testimonials">
+  <h2>Testimonials</h2>
 
-      <div class="testimonial">
-        <p>
-          "This company provided an amazing experience! The service was top-notch 
-          and I felt valued as a customer throughout the entire process."
-        </p>
-        <div class="author">– John Doe</div>
-      </div>
+  <div class="testimonial-card">
+    <p>This product is amazing! I highly recommend it to anyone in need of a solution like this.</p>
+    <span class="author">– John Doe</span>
+  </div>
 
-      <div class="testimonial">
-        <p>
-          "I am extremely happy with the quality of work delivered. The team was 
-          professional, efficient, and exceeded my expectations."
-        </p>
-        <div class="author">– Sarah Williams</div>
-      </div>
-
-      <div class="testimonial">
-        <p>
-          "Highly recommend! They were attentive, responsive, and truly cared about 
-          delivering the best results possible."
-        </p>
-        <div class="author">– Michael Lee</div>
-      </div>
-
-    </div>
-  </section>
+  <div class="testimonial-card">
+    <p>I have been using this for a few weeks now and it has completely transformed my workflow.</p>
+    <span class="author">– Jane Smith</span>
+  </div>
+</section>
 </body>
 </html>
